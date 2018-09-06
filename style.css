@@ -1,0 +1,23 @@
+/* h1{
+    
+    color: silver;
+    background-color: blue;
+    font-family:s Helvetica, sans-serif;
+    text-align:center; */
+}
+header {
+    background:#f4f4f4;
+    border-bottom:#ccc 5px, solid;
+    padding: 20px;
+    
+    }
+container {
+    width:700px;
+    margin:30px auto;
+}
+}
+body {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+  }
+
