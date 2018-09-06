@@ -27,6 +27,6 @@
 //     }
 
 document.querySelector('.tile').addEventListener('click', function(){
-    console.log('does this work')
+    alert ('What is a common K9 intestinal parisite')
     //this will execute when the event listener is triggered
 })
