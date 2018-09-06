@@ -4,8 +4,9 @@
     background-color: blue;
     font-family:s Helvetica, sans-serif;
     text-align:center; */
-}
-header {
+/* } */
+/* } */
+/* header {
     background:#f4f4f4;
     border-bottom:#ccc 5px, solid;
     padding: 20px;
@@ -19,5 +20,29 @@ container {
 body {
     text-align: center;
     font-family: Helvetica, sans-serif;
-  }
+  } */
 
+  .outter {
+    height: 600px;
+    width: 600px;      
+    background-color: rgba(14, 43, 207, 0.719);    
+}
+
+.row {
+  display: flex;
+
+  height:150px;
+  width: 550px;
+  margin: 25px;
+  background-color: red;
+  /* float: right; */
+}
+.tile {
+
+  text-align: center;
+  margin: 20px;
+  height:100px;
+  width:100px;
+  background-color: yellow;
+  /* float: left; */
+}

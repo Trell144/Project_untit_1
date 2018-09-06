@@ -1,28 +1,32 @@
 
    
   
-    alert('WELCOME TO JEOPARDY! 1st Player to reach 2,000 WINS! Click \"OK" to play!');
+//     alert('WELCOME TO JEOPARDY! 1st Player to reach 2,000 WINS! Click \"OK" to play!');
 
-    var playerOne= 0;
+//     var playerOne= 0;
     
 
-const gameData = {
-    questions : {
-        questionsOptions: ["What is the name of this campus"],
-        answer: "General Assembly"
-    }
-}
+// const gameData = {
+//     questions : {
+//         questionsOptions: ["What is a common K9 intestinal parasite?"],
+//         answer: "Round Worms"
+        
+//     }
+// }
 
 
-    var playerInput = prompt(gameData.questions.questionsOptions);
+//     var playerInput = prompt(gameData.questions.questionsOptions);
 
-    if (playerInput == gameData.questions.answer){
-console.log("correct answer");
+//     if (playerInput == gameData.questions.answer){
+// console.log("correct answer");
 
-    }
+//     }
 
-    if (playerInput != gameData.questions.questionsOptions){
-        console.log('wrong answer, next player')
-    }
+//     if (playerInput != gameData.questions.questionsOptions){
+//         console.log('wrong answer, next players turn')
+//     }
 
-
+document.querySelector('.tile').addEventListener('click', function(){
+    console.log('does this work')
+    //this will execute when the event listener is triggered
+})
