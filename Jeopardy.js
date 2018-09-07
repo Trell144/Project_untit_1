@@ -26,7 +26,12 @@
 //         console.log('wrong answer, next players turn')
 //     }
 
-document.querySelector('.tile').addEventListener('click', function(){
-    alert ('What is a common K9 intestinal parisite')
+document.querySelector('#tileOne').addEventListener('click', function(){
+    prompt('What is a common K9 intestinal parisite') 
+    //this will execute when the event listener is triggered
+})
+
+document.querySelector('#tileTwo').addEventListener('click', function(){
+    alert ('Second Questions') 
     //this will execute when the event listener is triggered
 })
