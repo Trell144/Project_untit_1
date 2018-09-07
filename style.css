@@ -17,10 +17,17 @@ container {
     margin:30px auto;
 }
 }
+*/
 body {
+    background-color: rgba(192, 192, 192, 0.048);
+}
+
+h1 {
     text-align: center;
+    color: silver;
+    background-color:blue;
     font-family: Helvetica, sans-serif;
-  } */
+}
 
   .outter {
     
@@ -32,7 +39,7 @@ body {
 .row {
 
   display: flex;
-
+ 
   height:150px;
   width: 550px;
   margin: 25px;
