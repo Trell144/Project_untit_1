@@ -43,7 +43,7 @@ document.querySelector('#tileFour').addEventListener('click', function(){
     prompt ('Fouth Questions') 
     //this will execute when the event listener is triggered
 })
-document.querySelector('#tileFIve').addEventListener('click', function(){
+document.querySelector('#tileFive').addEventListener('click', function(){
     prompt ('Fifth Questions') 
     //this will execute when the event listener is triggered
 })
