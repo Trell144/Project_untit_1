@@ -35,7 +35,7 @@ let questionsArray = [{
     answer: 'what are eyes'
 }, {
     question: 'What does a dog say roof',
-    answer: 'what is roof'
+    answer: 'what is woof'
 }, {
     question: 'How do dogs cool down?',
     answer: 'what is panting'
@@ -44,7 +44,16 @@ let questionsArray = [{
     answer: 'what is over a hundred'
 }, {
     question: 'What does a cat say?',
-    answer: 'meow'
+    answer: 'what is meow'
+}, {
+    question: 'What is a dogs most developed sense?',
+    answer: 'what is smell'
+}, {
+    question: 'How many lives does a cat have?',
+    answer: 'what is nine'
+}, {
+    question: 'What Georgia university has a dog mascot?',
+    answer: 'What is UGA'
 }]
 
 document.querySelector('#tileOne').addEventListener('click', function () {
@@ -102,17 +111,32 @@ document.querySelector('#tileSix').addEventListener('click', function () {
     } else {
         alert('Incorrect!')
     }
-})     //this will execute when the event listener is triggered
-// })
-// document.querySelector('#tileSeven').addEventListener('click', function () {
-//     prompt('What is a dogs most developed sense?')
-//     //this will execute when the event listener is triggered
-// })
-// document.querySelector('#tileEight').addEventListener('click', function () {
-//     prompt('On average cats live for "blank" years')
-//     //this will execute when the event listener is triggered
-// })
-// document.querySelector('#tileNine').addEventListener('click', function () {
-//     prompt('Ninth Question')
-//     //this will execute when the event listener is triggered
-// })
+})     
+
+document.querySelector('#tileSeven').addEventListener('click', function () {
+    const userAnswer = prompt(questionsArray[6].question)
+    console.log(userAnswer)
+    if (userAnswer == questionsArray[6].answer) {
+        alert('Correct!')
+    } else {
+        alert('Incorrect!')
+    }
+})
+document.querySelector('#tileEight').addEventListener('click', function () {
+    const userAnswer = prompt(questionsArray[7].question)
+    console.log(userAnswer)
+    if (userAnswer == questionsArray[7].answer) {
+        alert('Correct!')
+    } else {
+        alert('Incorrect!')
+    }
+})
+document.querySelector('#tileNine').addEventListener('click', function () {
+    const userAnswer = prompt(questionsArray[8].question)
+    console.log(userAnswer)
+    if (userAnswer == questionsArray[8].answer) {
+        alert('Correct!')
+    } else {
+        alert('Incorrect!')
+    }
+})
