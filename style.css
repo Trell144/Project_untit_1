@@ -23,12 +23,14 @@ body {
   } */
 
   .outter {
+    
     height: 600px;
     width: 600px;      
     background-color: rgba(14, 43, 207, 0.719);    
 }
 
 .row {
+
   display: flex;
 
   height:150px;

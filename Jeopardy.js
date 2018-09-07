@@ -32,6 +32,34 @@ document.querySelector('#tileOne').addEventListener('click', function(){
 })
 
 document.querySelector('#tileTwo').addEventListener('click', function(){
-    alert ('Second Questions') 
+    prompt ('Second Questions') 
+    //this will execute when the event listener is triggered
+})
+document.querySelector('#tileThree').addEventListener('click', function(){
+    prompt ('Third Questions') 
+    //this will execute when the event listener is triggered
+})
+document.querySelector('#tileFour').addEventListener('click', function(){
+    prompt ('Fouth Questions') 
+    //this will execute when the event listener is triggered
+})
+document.querySelector('#tileFIve').addEventListener('click', function(){
+    prompt ('Fifth Questions') 
+    //this will execute when the event listener is triggered
+})
+document.querySelector('#tileSix').addEventListener('click', function(){
+    prompt ('Sixth Questions') 
+    //this will execute when the event listener is triggered
+})
+document.querySelector('#tileSeven').addEventListener('click', function(){
+    prompt ('Seventh Questions') 
+    //this will execute when the event listener is triggered
+})
+document.querySelector('#tileEight').addEventListener('click', function(){
+    prompt ('Eight Questions') 
+    //this will execute when the event listener is triggered
+})
+document.querySelector('#tileNine').addEventListener('click', function(){
+    prompt ('Ninth Questions') 
     //this will execute when the event listener is triggered
 })
