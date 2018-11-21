@@ -35,8 +35,9 @@ h1 {
 }
 
 .category {
-    margin: auto;
-    text-align: right;
+    /* margin: auto; */
+    text-align: justify;
+    
 
 
 
@@ -48,7 +49,7 @@ h1 {
     padding: 20px, all;
     height: 475px;
     width: 600px;      
-    background-color: rgba(14, 43, 207, 0.719); 
+    background-color: rgba(11, 80, 228, 0.822); 
     border: double;   
 }
 
@@ -59,17 +60,21 @@ h1 {
   height:120px;
   width: 550px;
   margin: 25px;
-  background-color: red;
+  background-color: rgba(228, 213, 0, 0.911);
   box-shadow: 7px 3px #888888;
   /* float: right; */
 } 
 .tile {
 
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   text-align: center;
+  color:whitesmoke;
   margin: 20px;
   height:75px;
   width:150px;
-  background-color: yellow;
+  border-color: rgb(255, 238, 0);
+  box-shadow: 5px 2px #888888;
+  background-color: rgba(89, 141, 236, 0.822);
   border: dotted;
   /* float: left; */
 }
