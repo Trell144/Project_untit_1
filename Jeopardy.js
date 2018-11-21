@@ -25,7 +25,11 @@
 // let questionObject = {
 //     question: 'What the most common K9 intestinal parisite?',
 //     answer: 'worms'
-// }
+// 
+//}
+
+var gameScore = 0;
+
 
 let questionsArray = [{
     question: 'What the most common K9 intestinal parisite?',
@@ -34,7 +38,7 @@ let questionsArray = [{
     question: 'Has the largest "blank" of any mammaml',
     answer: 'what are eyes'
 }, {
-    question: 'What does a dog say roof',
+    question: 'What does a dog say?',
     answer: 'what is woof'
 }, {
     question: 'How do dogs cool down?',
@@ -53,8 +57,11 @@ let questionsArray = [{
     answer: 'what is nine'
 }, {
     question: 'What Georgia university has a dog mascot?',
-    answer: 'What is UGA'
+    answer: 'what is uga'
+    
 }]
+
+var gameScore = 0;
 
 document.querySelector('#tileOne').addEventListener('click', function () {
     const userAnswer = prompt(questionsArray[0].question)
@@ -70,11 +77,15 @@ document.querySelector('#tileOne').addEventListener('click', function () {
 document.querySelector('#tileTwo').addEventListener('click', function () {
     const userAnswer = prompt(questionsArray[1].question)
     console.log(userAnswer)
+    gameScore = gameScore + 250
     if (userAnswer == questionsArray[1].answer) {
         alert('Correct!')
+        //ADD point value to score
+        
     } else {
-        alert('Incorrect!')
+        alert('Incorrect!')  
     }
+    
 })
 document.querySelector('#tileThree').addEventListener('click', function () {
     const userAnswer = prompt(questionsArray[2].question)
@@ -92,6 +103,7 @@ document.querySelector('#tileFour').addEventListener('click', function () {
         alert('Correct!')
     } else {
         alert('Incorrect!')
+        
     }
 })
 document.querySelector('#tileFive').addEventListener('click', function () {
@@ -140,3 +152,7 @@ document.querySelector('#tileNine').addEventListener('click', function () {
         alert('Incorrect!')
     }
 })
+
+function gamescore() {
+    return 0;
+}

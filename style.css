@@ -20,6 +20,8 @@ container {
 }
 }
 */
+
+
 body {
     background-color: rgba(192, 192, 192, 0.048);
 }
@@ -32,7 +34,8 @@ h1 {
 }
 
   .outter {
-    
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px, all;
     height: 600px;
     width: 600px;      
     background-color: rgba(14, 43, 207, 0.719);    
