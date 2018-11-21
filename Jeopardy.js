@@ -1,4 +1,6 @@
-   alert('WELCOME TO JEOPARDY! 1st Player to reach 2,000 WINS! Click \"OK" to play!');
+   alert('WELCOME TO JEOPARDY! 1st Player to reach 2,000 WINS! Click \"OK" to play!' + "\t• all answers should be in lower case\n" 
+   + '\t• answers should be phrased like a question\n');
+//   
 
 //     var playerOne= 0;
 

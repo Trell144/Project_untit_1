@@ -27,36 +27,49 @@ body {
 }
 
 h1 {
+    border-radius: 10px;
     text-align: center;
     color: silver;
     background-color:blue;
     font-family: Helvetica, sans-serif;
 }
 
+.category {
+    margin: auto;
+    text-align: right;
+
+
+
+}
+
   .outter {
+    margin: auto;
     border-radius: 50px 50px 50px 50px;
     padding: 20px, all;
-    height: 600px;
+    height: 475px;
     width: 600px;      
-    background-color: rgba(14, 43, 207, 0.719);    
+    background-color: rgba(14, 43, 207, 0.719); 
+    border: double;   
 }
 
 .row {
 
   display: flex;
- 
-  height:150px;
+  border-radius: 35px 35px 35px 35px;
+  height:120px;
   width: 550px;
   margin: 25px;
   background-color: red;
+  box-shadow: 7px 3px #888888;
   /* float: right; */
 } 
 .tile {
 
   text-align: center;
   margin: 20px;
-  height:100px;
-  width:100px;
+  height:75px;
+  width:150px;
   background-color: yellow;
+  border: dotted;
   /* float: left; */
 }
