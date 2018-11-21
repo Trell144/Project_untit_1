@@ -1,25 +1,6 @@
 
 
-/* h1{
-    
-    color: silver;
-    background-color: blue;
-    font-family:s Helvetica, sans-serif;
-    text-align:center; */
-/* } */
-/* } */
-/* header {
-    background:#f4f4f4;
-    border-bottom:#ccc 5px, solid;
-    padding: 20px;
-    
-    }
-container {
-    width:700px;
-    margin:30px auto;
-}
-}
-*/
+
 
 
 body {
@@ -35,11 +16,9 @@ h1 {
 }
 
 .category {
-    /* margin: auto; */
+    
     text-align: justify;
     
-
-
 
 }
 
@@ -62,7 +41,7 @@ h1 {
   margin: 25px;
   background-color: rgba(228, 213, 0, 0.911);
   box-shadow: 7px 3px #888888;
-  /* float: right; */
+  
 } 
 .tile {
 
@@ -76,5 +55,5 @@ h1 {
   box-shadow: 5px 2px #888888;
   background-color: rgba(89, 141, 236, 0.822);
   border: dotted;
-  /* float: left; */
+  
 }
